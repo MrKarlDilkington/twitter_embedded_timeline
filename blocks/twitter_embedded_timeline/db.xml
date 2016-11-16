@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btTwitterEmbeddedTimeline">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+        </field>
+        <field name="twitterHandle" type="X"></field>
+        <field name="transparentBackground" type="C"></field>
+        <field name="widgetHeader" type="C"></field>
+        <field name="widgetBorder" type="C"></field>
+        <field name="widgetScrollbar" type="C"></field>
+        <field name="widgetFooter" type="C"></field>
+        <field name="tweetsDisplayed" type="I"></field>
+        <field name="widgetTheme" type="C"></field>
+        <field name="linkColor" type="C"></field>
+        <field name="borderColor" type="C"></field>
+        <field name="height" type="I"></field>
+        <field name="width" type="I"></field>
+    </table>
+</schema>
